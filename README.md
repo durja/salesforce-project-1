@@ -1,93 +1,114 @@
-# Recruitment Management System
+# 🏢 Employee Leave Management System
 
-## Overview
+A **Salesforce-based Employee Leave Management System** designed to streamline employee leave management by automating leave requests, tracking leave balances, and providing real-time reports and dashboards for efficient decision-making.
 
-Recruitment Management System is a Salesforce-based application developed to simplify the recruitment process by managing candidates, job openings, and interview workflows in a centralized CRM platform.
+---
 
-## Features
+## ✨ Features
 
-- Candidate profile management
-- Job opening management
-- Application tracking
-- Interview scheduling
-- Candidate search functionality
-- Recruitment reports and dashboards
-- Role-based access management
+* 👨‍💼 Manage employee information using custom Salesforce objects.
+* 📝 Submit and track employee leave requests.
+* 📅 Maintain employee leave balances.
+* ⚡ Automate leave management using Apex and Flow Builder.
+* 🔍 Retrieve and manage records using SOQL queries.
+* 💻 Display leave information using Lightning Web Components (LWC).
+* 📊 Generate reports and interactive dashboards for leave analytics.
+* 🔐 Configure permission sets for secure role-based access.
 
-## Salesforce Concepts Used
+---
 
-- Salesforce Custom Objects
-- Custom Fields
-- Apex Classes
-- SOQL Queries
-- Lightning Web Components (LWC)
-- Profiles
-- Permission Sets
-- Sharing Rules
-- Reports & Dashboards
+## 🛠️ Technologies Used
 
-## Technologies Used
+* ☁️ Salesforce Platform
+* ⚡ Apex
+* 💻 Lightning Web Components (LWC)
+* 🔎 SOQL
+* 🔄 Flow Builder
+* 📊 Reports & Dashboards
+* 🔐 Permission Sets
 
-- Salesforce CRM
-- Apex Programming
-- Lightning Web Components
-- SOQL
-- Salesforce Security Model
-- Salesforce Developer Org
+---
 
-## Object Model
+## 🧩 Salesforce Components
 
-### Candidate__c
-Stores candidate details.
+### 📂 Custom Objects
 
-Fields:
-- Candidate Name
-- Email
-- Phone
-- Skills
-- Experience
-- Application Status
+* Employee
+* Leave Request
+* Leave Balance
 
-### Job_Opening__c
-Stores available job positions.
+### ⚡ Apex
 
-Fields:
-- Job Title
-- Department
-- Required Skills
-- Job Status
+* Apex Classes
+* Apex Triggers
+* Apex Test Classes
 
-### Interview__c
-Stores interview details.
+### 💻 Lightning Web Components
 
-Fields:
-- Candidate
-- Interview Date
-- Interview Round
-- Feedback
-- Status
+* Employee Leave Management Interface
 
-## Security Implementation
+### 🔄 Automation
 
-- Configured profiles and permission sets for different user roles.
-- Implemented sharing rules for secure record access.
-- Controlled object and field-level permissions.
+* Record-Triggered Flow using Flow Builder
 
-## Reports & Dashboards
+### 📈 Reports
 
-Created reports to analyze:
+* All Leave Requests
+* Pending Leave Requests
+* Employee Leave Balance
 
-- Candidate applications
-- Interview status
-- Job openings
-- Recruitment progress
+### 📊 Dashboard
 
-## Learning Outcomes
+* Leave Requests by Status (Donut Chart)
+* Employee Leave Balance
+* Pending Leave Requests
 
-- Built Salesforce CRM solutions using Apex and LWC.
-- Applied Salesforce security and data modeling concepts.
-- Developed business workflows for recruitment management.
+---
 
-## Author
+## 🔄 Project Workflow
 
-Pindi Durja Syamala
+1. 👨‍💼 Create employee records.
+2. 📝 Employees submit leave requests.
+3. ⚡ Apex and Flow Builder process leave requests.
+4. 📅 Leave balances are updated automatically.
+5. 📈 Reports summarize leave information.
+6. 📊 Dashboards provide visual insights for easy monitoring.
+
+---
+
+## 📁 Project Structure
+
+```text
+Employee-Leave-Management-System/
+│── force-app/
+│── manifest/
+│── screenshots/
+│── README.md
+└── package.xml
+```
+
+---
+
+## 📸 Screenshots
+
+Include screenshots of:
+
+* 🏠 App Home
+* 👨‍💼 Employee Records
+* 📝 Leave Request Records
+* 📅 Leave Balance Records
+* 💻 Lightning Web Component
+* 🔄 Flow Builder
+* 📈 Reports
+* 📊 Dashboard
+* 🔐 Permission Set
+
+---
+
+## 🚀 Future Enhancements
+
+* 📧 Email notifications for leave approvals and rejections.
+* 👥 Multi-level approval workflow.
+* 📱 Mobile-friendly Lightning experience.
+* 📅 Leave history and analytics dashboard.
+* 🔔 Manager notification system.
